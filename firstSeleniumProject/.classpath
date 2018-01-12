@@ -16,5 +16,6 @@
 	<classpathentry kind="lib" path="E:/Antony/selenium-java-3.7.1/libs/guava-23.0.jar"/>
 	<classpathentry kind="lib" path="E:/Antony/selenium-java-3.7.1/libs/httpclient-4.5.3.jar"/>
 	<classpathentry kind="lib" path="E:/Antony/selenium-java-3.7.1/libs/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tools lab4/Downloads/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

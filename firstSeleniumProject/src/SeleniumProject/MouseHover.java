@@ -10,6 +10,7 @@ public class MouseHover {
 		//DragandDrop
 		
 		WebDriver cdriver = new ChromeDriver();
+		
 		//cdriver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		Actions a = new Actions(cdriver);
 		//Mouse Hover
@@ -18,6 +19,7 @@ public class MouseHover {
 		a.moveToElement(cdriver.findElement(By.xpath("html/body/div[1]/div[1]/header/nav/ul/li[2]/ul/li[1]/a/span[1]/span/span")));
 		a.click();
 		a.perform();
+		cdriver.close();
 		
 		System.out.println("Mouse Hover Completed Successfully");
 
