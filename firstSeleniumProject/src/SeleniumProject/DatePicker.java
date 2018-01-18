@@ -28,7 +28,6 @@ public class DatePicker {
 		cdriver.findElement(By.xpath("html/body/div[2]/div[3]/div[1]/section/div[2]/div[2]/input")).clear();
 		cdriver.findElement(By.xpath("html/body/div[2]/div[3]/div[1]/section/div[2]/div[2]/input")).sendKeys("Hyderabad (HYD)");
 		cdriver.findElement(By.xpath("html/body/div[2]/div[3]/div[1]/section/div[2]/div[3]/input")).click();
-		
 		String DispYear = cdriver.findElement(By.xpath("html/body/div[2]/div[3]/div[3]/div/div[3]/div/div[1]/div/div/span[2]")).getText();
 		String DispMonth = cdriver.findElement(By.xpath("html/body/div[2]/div[3]/div[3]/div/div[3]/div/div[1]/div/div/span[1]")).getText();
 		
