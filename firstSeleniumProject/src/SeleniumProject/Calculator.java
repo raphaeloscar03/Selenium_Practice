@@ -2,42 +2,34 @@ package SeleniumProject;
 
 //import java.util.Scanner;
 
-import org.testng.annotations.Test;
-
-@Test
 public class Calculator {
 	
 	float c;
-	
-	@Test
+
 	public float add(float a, float b) {
 		
 		c = a + b;
 		return c;
 	}
 	
-	@Test
 	public float sub(float a, float b) {
 		
 		c = a - b;
 		return c;
 	}
 	
-	@Test
 	public float mul(float a, float b) {
 		
 		c = a * b;
 		return c;
 	}
 	
-	@Test
 	public float div(float a, float b) {
 		
 		c = a/b;
 		return c;
 	}
 
-	@Test
 	public static void main(String[] args) {
 		
 		Calculator cal = new Calculator();
