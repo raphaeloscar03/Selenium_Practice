@@ -15,13 +15,14 @@ public class DatePicker {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the Date of Travel in DD/Month/YYYY Format");
 		String TravelDate = s.next();
+		s.close();
 		
 		String Date =   TravelDate.split("/")[0];
 		String Month =   TravelDate.split("/")[1];
 		String Year =   TravelDate.split("/")[2];
 		
 		WebDriver cdriver = new ChromeDriver();
-		cdriver.get("https://www.makemytrip.com/");
+		cdriver.get("https://www.makemytr																																																			qip.com/");
 		cdriver.findElement(By.xpath("html/body/div[2]/div[3]/div[1]/section/div[2]/div[1]/input")).clear();
 		cdriver.findElement(By.xpath("html/body/div[2]/div[3]/div[1]/section/div[2]/div[1]/input")).sendKeys("Chennai (MAA)");
 		cdriver.findElement(By.xpath("html/body/div[2]/div[3]/div[1]/section/div[2]/div[2]/input")).clear();
