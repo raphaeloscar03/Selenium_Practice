@@ -68,6 +68,7 @@ public class DatePicker {
 			
 		}
 		
+		System.out.println("test");
 	}
 	
 }
